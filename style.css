@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.show-tell-logo {
+    font-size: 35px;
+    margin-right: 473px; 
+}
+
+.logo-svg {
+    width: 172.13px;
+    height: 41.63px;
+}
+
+.header-container {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    align-items: center;
+    padding: 0 30px;
+    width: 100%;
+}
+
+.header-nav {
+    margin-left: auto; 
+    display: flex;
+    align-items: center;
+}
+
+.header-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 35px;
+}
+
+.header-list a {
+    text-decoration: none;
+    color: black;
+}
+
+.start-button-container {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.start-title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.start-title {
+    text-align: center;
+    font-size: 16px;
+}
+
+.arrow-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    text-decoration: none;
+    margin-right: 100px;
+}
+
+.arrow-btn {
+    width: 24px;
+    height: 24px;
+}
+
+.Button_arrow__zV5M_ svg {
+    width: 24px;
+    height: 24px;
+    fill: white;
+}
+
+.list-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 112px;
+    width: 469px;
+}
+
+.animation{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    position: relative;
+    margin-top: 100px;
+    width: calc(100vw - 60px);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.left
+{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    overflow: hidden;
+
+}
+
+.right
+{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-color:black;
+    overflow: hidden;
+    
+}
+
+h1
+{
+    position: absolute;
+    font-size: 15rem;
+    white-space: nowrap;
+    color: white;
+    line-height: 50vh;
+    animation: anim 20s linear infinite;
+    
+    
+    
+}
+
+@keyframes anim {
+    0%{
+        transform: translateX(0);
+
+    }
+
+    100%
+    {
+        transform: translateX(-100%);
+        
+    }
+    
+}
+
+.left h1
+{
+    color: black;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px;
+    left: 100%;
+}
+
